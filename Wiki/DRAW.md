@@ -14,7 +14,7 @@
 - Right : DRAW Model
 - Z -> Z<sub>1:t</sub> : Latent variables are serialized (such like time)
 - VAE : Uses gaussian distribution to predict z. Because of "reparameterization trick"
-  - reparameterization trick : `N(μ,σ) == (N(0,1)+μ)*σ`
+  - reparameterization trick : `N(μ,σ) == N(0,1)*σ+μ`
 - Variables
   - x'<sub>t</sub> : error image
   - r<sub>t</sub> : computed **read** variable
