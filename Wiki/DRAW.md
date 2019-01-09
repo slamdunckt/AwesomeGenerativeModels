@@ -8,7 +8,7 @@
 - works better with attention algorithms
 
 ## Model Description
-<img src="./Resources/DRAW_model.PNG">
+<img src="./Resources/DRAW_model.PNG" width="70%">
 
 - Left : Conventional VAE
 - Right : DRAW Model

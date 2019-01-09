@@ -39,6 +39,13 @@
   - Learns to generate bigger data from smaller ones
   - [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196)
 
+#### [Conditional-GAN](Wiki/ConditionalGAN.md)
+
+- Z layer : Noise + Y(condition)
+- GAN : random generate
+- Conditional-GAN : pseudo-random generate (random generate with specific characteristics)
+- [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
+
 #### multi-modal GANs
   - [Cycle-GAN](Wiki/CycleGAN.md)
     - [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593)
