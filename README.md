@@ -17,12 +17,12 @@
 - Random sampling : in decoding, VAE generates samples from gaussian distributions
 
 #### [DRAW](Wiki/DRAW.md)
-- encoder/decoder model + RNN
+- VAE+ RNN
 - serial data
 - [DRAW: A Recurrent Neural Network For Image Generation](https://arxiv.org/abs/1502.04623)
 
 #### [Generative Query Network](Wiki/GQN.md)
-- VAE + RNN
+- evidences(Images + positions) + (target position) -> (image)
 - [Neural scene representation and rendering](https://deepmind.com/blog/neural-scene-representation-and-rendering/)
 - [Learning models for visual 3D localization with implicit mapping](https://arxiv.org/pdf/1807.03149.pdf)
 
