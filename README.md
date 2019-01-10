@@ -50,10 +50,10 @@
 ### [Generative FLOW (GLOW)](Wiki/GLOW.md)
 - [Glow: Generative Flow with Invertible 1x1 Convolutions](https://arxiv.org/abs/1807.03039)
 
-### [VAE <-- GAN]
-- [Adversarial Variational Bayes](https://arxiv.org/abs/1701.04722)
-- [Github](https://github.com/LMescheder/AdversarialVariationalBayes)
+### [Adversarial Variational Bayes](https://github.com/LMescheder/AdversarialVariationalBayes)
+- [Adversarial Variational Bayes: Unifying Variational Autoencoders and Generative Adversarial Networks](https://arxiv.org/abs/1701.04722)
+- VAE <-- GAN
 
-### [VAE --> GAN]
-- [BEGAN](https://arxiv.org/abs/1703.10717)
-- [Github](https://github.com/carpedm20/BEGAN-tensorflow)
+### [BEGA](https://github.com/carpedm20/BEGAN-tensorflow)
+- [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717)
+- GAN <-- AE
