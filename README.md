@@ -54,6 +54,6 @@
 - [Adversarial Variational Bayes: Unifying Variational Autoencoders and Generative Adversarial Networks](https://arxiv.org/abs/1701.04722)
 - VAE <-- GAN
 
-### [BEGA](https://github.com/carpedm20/BEGAN-tensorflow)
+### [BEGAN](https://github.com/carpedm20/BEGAN-tensorflow)
 - [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717)
 - GAN <-- AE
