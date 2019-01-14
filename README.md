@@ -17,12 +17,12 @@
 - Random sampling : in decoding, VAE generates samples from gaussian distributions
 
 #### [DRAW](Wiki/DRAW.md)
-- encoder/decoder model + RNN
+- VAE+ RNN
 - serial data
 - [DRAW: A Recurrent Neural Network For Image Generation](https://arxiv.org/abs/1502.04623)
 
 #### [Generative Query Network](Wiki/GQN.md)
-- VAE + RNN
+- evidences(Images + positions) + (target position) -> (image)
 - [Neural scene representation and rendering](https://deepmind.com/blog/neural-scene-representation-and-rendering/)
 - [Learning models for visual 3D localization with implicit mapping](https://arxiv.org/pdf/1807.03149.pdf)
 
@@ -38,6 +38,13 @@
   - Generates images from low resolution to high resolution
   - Learns to generate bigger data from smaller ones
   - [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196)
+
+#### [Conditional-GAN](Wiki/ConditionalGAN.md)
+
+- Z layer : Noise + Y(condition)
+- GAN : random generate
+- Conditional-GAN : pseudo-random generate (random generate with specific characteristics)
+- [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
 
 #### multi-modal GANs
   - [Cycle-GAN](Wiki/CycleGAN.md)
