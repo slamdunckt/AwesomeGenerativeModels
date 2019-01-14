@@ -27,6 +27,12 @@
 - [Learning models for visual 3D localization with implicit mapping](https://arxiv.org/pdf/1807.03149.pdf)
 - [Sample codes](https://github.com/ogroth/tf-gqn)
 
+- [GQN world model](Wiki/WorldModel.md)
+  - evidences(Image + (positions, time)) + (action) -> (Image) + (next action)
+  - GQN + RL
+  - [World Models](https://arxiv.org/abs/1803.10122)
+  - [Sample codes](https://github.com/yueqiw/gqn-world-model)
+
 ### [Generative Adversarial Networks](Wiki/GAN.md)
 - Generator vs discriminator : Generator generates "fake results" to deceive discriminator. Discriminator finds "fake data" from whole data.
 - [Generative Adversarial Nets](https://arxiv.org/abs/1406.2661)
@@ -60,7 +66,7 @@
     - [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1807.03039)
     - [Sample codes](https://github.com/taki0112/StarGAN-Tensorflow)
 
-#### [Adversarial Variational Bayes](Wiki/Adversarial_Variational_Bayes.md)
+#### [Adversarial Variational Bayes](Wiki/AdversarialVariationalBayes.md)
 
 - [Adversarial Variational Bayes: Unifying Variational Autoencoders and Generative Adversarial Networks](https://arxiv.org/abs/1701.04722)
 - VAE <-- GAN
